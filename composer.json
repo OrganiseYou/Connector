@@ -1,0 +1,22 @@
+{
+    "name": "organiseyou/client",
+    "description": "Library that connects to the OrganiseYou platform",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Organiseyou\\Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joris Ros",
+            "email": "joris.ros@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.4"
+    }
+}
