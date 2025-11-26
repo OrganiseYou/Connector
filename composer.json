@@ -1,5 +1,5 @@
 {
-    "name": "organiseyou/client",
+    "name": "organiseyou/connector",
     "description": "Library that connects to the OrganiseYou platform",
     "type": "library",
     "autoload": {
