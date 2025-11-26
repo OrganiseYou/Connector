@@ -36,6 +36,8 @@ query entitiesList($id: String, $name: String) {
             label
             description
             type
+            related_entity_id
+            related_entity_display_field
             settings
             sort
             created_at
@@ -76,6 +78,8 @@ mutation createEntity($input: EntityInput) {
             label
             description
             type
+            related_entity_id
+            related_entity_display_field
             settings
             sort
             created_at
@@ -107,6 +111,8 @@ mutation updateEntity($id: String!, $input: EntityInput) {
             label
             description
             type
+            related_entity_id
+            related_entity_display_field
             settings
             sort
             created_at
